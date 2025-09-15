@@ -112,7 +112,20 @@ $pessoa = [
 
 function recomendar_lazer($hobby, $idade){
 
-    if ($idade >= 18 ){
+    // operação
+    
+    /* 
+    
+    operação unária -> ! -> NOT
+    operação binária -> $idade >= 18
+    operação ternária -> condição ? V : F 
+    
+    */
+
+    $adulto = $idade >= 18 ? true : False;
+
+
+    if ($adulto >= 18 ){
 
         echo "-------- Conteúdos sensíveis --------";
 
