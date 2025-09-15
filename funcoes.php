@@ -103,6 +103,50 @@ calculadora("multiplicacao");
 
 */
 
+$pessoa = [
+    'nome' => "William",
+    'idade' => 21,
+    'peso' => 67,
+    'hobby' => ["Guitarra", "Jogos" , "Futebol","Filmes"]
+];
+
+function recomendar_lazer($hobby, $idade){
+
+    if ($idade >= 18 ){
+
+        echo "-------- Conteúdos sensíveis --------";
+
+        switch($hobby){
+            case "Jogos":
+                echo "Lista de Filmes";
+                break;
+
+            case "Futebol":
+                echo "Lista de Partidas de futebol";
+                break;
+            default:
+                echo "--- Lista génerica de conteúdo";    
+                break;
+        }
+    } 
+
+    echo "------- Conteúdos Gerais ---------";
+
+     switch($hobby){
+            case "Filmes":
+                echo "Lista de Filmes";
+                break;
+            case "Guitarra":
+                echo "Lista de músicas para aprender";
+                break;
+            default:
+                echo "--- Lista génerica de conteúdo";    
+                break;
+        }
+
+}
+
+recomendar_lazer($pessoa['hobby'][0], $pessoa['idade']);
 
 
 ?>
