@@ -56,39 +56,53 @@ apresentar_post("IA em programação", "como a IA afeta as profissões do futuro
 
 */
 
-function calculadora(){
+/*
+function calculadora($operacao){
 
     $valor1 = 2;
     $valor2 = 4;
 
-    soma($valor1 , $valor2);
+    // se condição {}
+    if ($operacao == "soma"){
+        
+        soma($valor1 , $valor2);
     
-    subtracao($valor1 , $valor2);
+    } else if ($operacao == "subtracao"){
+        
+        subtracao($valor1 , $valor2);
+
+    } else if ($operacao == "multiplicacao"){
+
+        multiplicacao($valor1 , $valor2);
     
-    multiplicacao($valor1 , $valor2);
-    
-    divisao($valor1 , $valor2);
+    } else{
+        divisao($valor1 , $valor2);
+    }
 
 }
 
 function soma($valor1, $valor2){
-    echo "A soma é". $valor1 + $valor2;
+    echo "A soma é ". $valor1 + $valor2;
 }
 
 function subtracao($valor1, $valor2){
-    echo "A subtração é". $valor1 - $valor2;
+    echo "A subtração é ". $valor1 - $valor2;
 }
 
 function multiplicacao($valor1, $valor2){
-    echo "A multiplicaçao é". $valor1 * $valor2;
+    echo "A multiplicaçao é ". $valor1 * $valor2;
 }
 
 function divisao($valor1, $valor2){
-    echo "A divisao é". $valor1 / $valor2;
+    echo "A divisao é ". $valor1 / $valor2;
 }
 
 
-calculadora();
+calculadora("soma");
+calculadora("multiplicacao");
+
+*/
+
 
 
 ?>
