@@ -12,7 +12,8 @@
 
     require_once "cabecalho.php";
 
-    
+    require_once "pedido_folha.php";
+    qual_seu_cla("Kakashi", 2);
 
     require_once "rodape.php";
 
