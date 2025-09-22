@@ -165,5 +165,28 @@ recomendar_lazer($pessoa['hobby'][0], $pessoa['idade']);
 
 
 
+
+// ------------ Revisão sobre funções 
+
+function exibir_mensagem($texto, $senha){
+
+    // condicionais
+
+
+    if( $senha == 123){
+          echo "Olá $texto estou dentro da função";
+    } else if( $senha == 321 ){
+
+    }else{
+
+    }
+
+    
+
+
+}
+
+exibir_mensagem("William", 123);
+
 ?>
 
