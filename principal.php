@@ -6,10 +6,16 @@
     <title>Designação de missões</title>
 </head>
 <body>
-    
+    <?php
 
 
+    require_once "nivel.php";
+
+    require_once "rank.php";
+
+    require_once "missoes.php";
 
 
+    ?>
 </body>
 </html>
