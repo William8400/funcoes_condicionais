@@ -102,7 +102,7 @@ calculadora("soma");
 calculadora("multiplicacao");
 
 */
-
+/*
 $pessoa = [
     'nome' => "William",
     'idade' => 21,
@@ -120,7 +120,7 @@ function recomendar_lazer($hobby, $idade){
     operação binária -> $idade >= 18
     operação ternária -> condição ? V : F 
     
-    */
+    
 
     $adulto = $idade >= 18 ? true : False;
 
@@ -160,6 +160,9 @@ function recomendar_lazer($hobby, $idade){
 }
 
 recomendar_lazer($pessoa['hobby'][0], $pessoa['idade']);
+
+*/
+
 
 
 ?>
