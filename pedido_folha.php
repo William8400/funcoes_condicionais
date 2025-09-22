@@ -33,21 +33,8 @@ function qual_seu_cla($nome_ninja, $numero_ninja)
 }
 
 
-function descricao_cla($numero_ninja)
-{
-    if ($numero_ninja == 1) {
-        echo  "Um texto qualquer.";
-    } else if ($numero_ninja == 2) {
-        echo  "Um texto qualquer";
-    } else if ($numero_ninja == 3) {
-        echo  "Um texto qualquer";
-    } else if ($numero_ninja == 4) {
-        echo  "Um texto qualquer";
-    } else if ($numero_ninja) {
-        echo  "Um texto qualquer";
-    }
-}
+?>
 
 
 
-qual_seu_cla('Hatake', 1);
+
