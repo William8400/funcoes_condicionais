@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Designação de missões</title>
 </head>
+
 <body>
+    
     <?php
 
 
     require_once "nivel.php";
 
-    require_once "rank.php";
-
-    require_once "missoes.php";
+    niveis_ninja('Mario', 2);
 
 
     ?>
 </body>
+
 </html>
