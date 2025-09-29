@@ -37,8 +37,6 @@ function exibirCard($ninjas)
 }
 
 
-echo $ninjas['nome'];
-
 ?>
 
 
