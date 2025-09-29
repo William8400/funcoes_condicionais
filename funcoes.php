@@ -181,9 +181,6 @@ function exibir_mensagem($texto, $senha){
 
     }
 
-    
-
-
 }
 
 exibir_mensagem("William", 123);
