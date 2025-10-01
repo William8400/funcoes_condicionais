@@ -25,15 +25,21 @@ function rankMissao($nivel)
 
 function exibirCard($ninjas)
 {
-    echo '
-    <div> 
+    echo ' 
+    <div>  
     
-    Nome: Clã: Nivel:  Missões realizadas:  Tem Filhos?     
-
+    Nome: 
+    
+    Clã: 
+    
+    Nivel:  
+    
+    Missões realizadas:  
+    
+    Tem Filhos?  
+    
     </div> ';
-
-
-    
+   
 }
 
 
