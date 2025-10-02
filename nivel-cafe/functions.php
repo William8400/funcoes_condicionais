@@ -23,23 +23,18 @@ function rankMissao($nivel)
 }
 
 
-function exibirCard($ninjas)
-{
-    echo ' 
-    <div>  
-    
-    Nome: 
-    
-    Clã: 
-    
-    Nivel:  
-    
-    Missões realizadas:  
-    
-    Tem Filhos?  
-    
-    </div> ';
-   
+function exibirCard($DadosDosNinjas){
+
+     echo $DadosDosNinjas['nome']."<br>";
+     echo $DadosDosNinjas['clã']."<br>";
+     
+     echo $DadosDosNinjas['nivel']."<br>";
+
+     echo $DadosDosNinjas['missoes_realizadas'][0]."<br>";
+     echo $DadosDosNinjas['missoes_realizadas'][1]."<br>";
+     echo $DadosDosNinjas['missoes_realizadas'][2]."<br>";
+     echo $DadosDosNinjas['tem-filhos?'] ? 'sim' : 'não'."<br>";
+
 }
 
 
