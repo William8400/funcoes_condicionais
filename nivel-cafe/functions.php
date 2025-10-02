@@ -27,8 +27,8 @@ function exibirCard($DadosDosNinjas){
 
      echo $DadosDosNinjas['nome']."<br>";
      echo $DadosDosNinjas['clã']."<br>";
-     
-     echo $DadosDosNinjas['nivel']."<br>";
+
+     echo rankMissao($DadosDosNinjas['nivel'])."<br>";
 
      echo $DadosDosNinjas['missoes_realizadas'][0]."<br>";
      echo $DadosDosNinjas['missoes_realizadas'][1]."<br>";
