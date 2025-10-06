@@ -24,8 +24,7 @@ function rankMissao($nivel)
 
 
 function exibirCard($DadosDosNinjas){
-
-     // ---------------PRIMEIRO NINJA ------------------  
+     
      echo "<strong>".$DadosDosNinjas['nome']."</strong><br>";
      
      echo "<ul>";
